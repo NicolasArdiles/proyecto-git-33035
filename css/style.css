@@ -1,0 +1,302 @@
+                                        /*   GENERAL   */
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+html{
+    font-family: DM sans, sans-serif;
+}
+
+header{
+    background-color: rgb(9, 88, 55);
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(34, 30, 30);
+    color: white;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+a{
+    color: white;
+}
+
+footer{
+    background-color: rgb(97, 29, 160);
+    margin-top: 20px;
+}
+
+.boton{
+    padding: 7px;
+    background-color: rgb(97, 29, 160);
+    border-radius: 5px;
+}
+
+                                        /*   INDEX   */
+
+                /*bloques*/
+
+.bloque-destacados{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.bloque-series{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.bloque-lanzamientos{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+                /*articulos*/
+
+.destacados{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.destacados__img{
+    width: 380px;
+}
+
+.destacados__texto{
+    margin: 10px;
+}
+
+
+
+
+.series{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.series__img{
+    width: 380px;
+}
+
+.series__texto{
+    margin: 10px;
+}
+
+.lanzamientos{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.lanzamientos__img{
+    width: 380px;
+}
+
+.lanzamientos__texto{
+    margin: 10px;
+}
+
+                                        /*   FOROS   */
+
+                /*bloques*/
+
+.bloque-reseñas{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+                /*articulos*/
+
+.reseñas{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.reseñas__texto{
+    margin:10px;
+}
+
+                                        /*   NOTICIAS   */
+
+                /*bloques*/
+
+.bloque-ultimas-noticias{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+                /*articulos*/
+
+.ultimas__noticias{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.ultimas__noticias__img{
+    width: 380px;
+}
+
+.ultimas__noticias__texto{
+    margin: 10px;
+}
+
+                                        /*   TRUCOS-GUIAS   */
+
+                /*bloques*/
+
+.bloque-guias{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.bloque-trucos{
+    background-color:rgb(238, 81, 53);
+    width: max-content;
+    padding: 30px 30px 30px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+                /*articulos*/
+
+.guias{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.guias__img{
+    width: 380px;
+}
+
+.guias__titulo{
+    padding: 5px;
+}
+
+.guias__texto{
+    padding: 10px;
+}
+
+.trucos{
+    background-color: white;
+    color: black;
+    
+    width: 500px;
+
+    padding: 10px;
+
+    margin-bottom: 5px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.trucos__img{
+    width: 380px;
+}
+
+                                        /*   INICIAR-SESION   */
+
+                /*formularios*/
+
+.formulario{
+    background-color: white;
+    color: black;
+    
+    width: 300px;
+
+    padding: 10px;
+
+    border: 4px solid  rgb(97, 29, 160);
+    border-radius: 15px;
+}
+
+.username{
+    padding-bottom: 20px;
+}
+
+.email{
+    padding-bottom: 20px;
+}
+
+.contraseña{
+    padding-bottom: 20px;
+}
+
+.cambiar__contraseña{
+    color: black;
+}
