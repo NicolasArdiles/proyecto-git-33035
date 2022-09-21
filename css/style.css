@@ -3,24 +3,22 @@
 *{
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html{
-    font-family: DM sans, sans-serif;
+ul,ol{
+    list-style: none;
 }
 
-header{
-    background-color: rgb(9, 88, 55);
-    color: white;
-    padding: 20px;
+a{
+    text-decoration: none;
 }
 
-nav{
-    padding: 10px;
-}
-
-body{
-    background-color: rgb(34, 30, 30);
+.body{
+    background-image: url(../assets/img/cuerpo-felina.jpg);
+    background-position: center;
+    background-size: cover;
     color: white;
 }
 
@@ -32,15 +30,51 @@ a{
     color: white;
 }
 
-footer{
-    background-color: rgb(97, 29, 160);
-    margin-top: 20px;
+.footer{
+    background-image: url(../assets/img/fondo-bbad.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 98.5vw;
 }
 
 .boton{
     padding: 7px;
-    background-color: rgb(97, 29, 160);
+    background-color: rgb(15, 114, 64);
     border-radius: 5px;
+}
+                                        /*   HEADER   */
+
+.header{
+    background-image: url(../assets/img/fondo-bbad.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color:white;
+    font-size: 1.1rem;
+    padding: 15px;
+    width: 98.5vw;
+}
+
+.header__title{
+    text-align: center;
+    padding: 10px;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:768px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__nav{
+        width: 50%;
+    }
 }
 
                                         /*   INDEX   */
@@ -48,21 +82,21 @@ footer{
                 /*bloques*/
 
 .bloque-destacados{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
 }
 
 .bloque-series{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
 }
 
 .bloque-lanzamientos{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
@@ -80,7 +114,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -105,7 +139,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -127,7 +161,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -144,7 +178,7 @@ footer{
                 /*bloques*/
 
 .bloque-reseñas{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
@@ -162,7 +196,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -175,7 +209,7 @@ footer{
                 /*bloques*/
 
 .bloque-ultimas-noticias{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
@@ -193,7 +227,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -210,14 +244,14 @@ footer{
                 /*bloques*/
 
 .bloque-guias{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
 }
 
 .bloque-trucos{
-    background-color:rgb(238, 81, 53);
+    background-color:black;
     width: max-content;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
@@ -235,7 +269,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -261,7 +295,7 @@ footer{
 
     margin-bottom: 5px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
@@ -281,7 +315,7 @@ footer{
 
     padding: 10px;
 
-    border: 4px solid  rgb(97, 29, 160);
+    border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
 }
 
