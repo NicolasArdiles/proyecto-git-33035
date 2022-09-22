@@ -41,11 +41,19 @@ a{
 }
 
 .boton{
-    height: 39px;
-    padding: 7px;
     background-color: rgb(15, 114, 64);
+    color: white;
+    padding: 7px;
     border-radius: 5px;
+
 }
+
+.boton:hover{
+    border: rgb(15, 114, 64) 2px solid;
+    background-color: white;
+    color: rgb(15, 114, 64);
+}
+
                                         /*   HEADER   */
 
 .header{
