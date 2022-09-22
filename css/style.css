@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 
-.body{
+body{
     background-image: url(../assets/img/cuerpo-felina.jpg);
     background-position: center;
     background-size: cover;
@@ -35,9 +35,13 @@ a{
     background-position: center;
     background-size: cover;
     width: 98.5vw;
+    font-size: 1.4rem;
+
+    grid-area: footer;
 }
 
 .boton{
+    height: 39px;
     padding: 7px;
     background-color: rgb(15, 114, 64);
     border-radius: 5px;
@@ -53,6 +57,8 @@ a{
     font-size: 1.1rem;
     padding: 15px;
     width: 98.5vw;
+
+    grid-area: header;
 }
 
 .header__title{
@@ -83,23 +89,29 @@ a{
 
 .bloque-destacados{
     background-color:black;
-    width: max-content;
+    width: 50vw;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
+
+    grid-area: destacados;
 }
 
 .bloque-series{
     background-color:black;
-    width: max-content;
+    width: 50vw;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
+
+    grid-area: series;
 }
 
 .bloque-lanzamientos{
     background-color:black;
-    width: max-content;
+    width: 50vw;
     padding: 30px 30px 30px 5px;
     margin: 10px 0px 10px 0px;
+
+    grid-area: lanzamientos;
 }
 
                 /*articulos*/
@@ -123,6 +135,7 @@ a{
 }
 
 .destacados__texto{
+    width: 300px;
     margin: 10px;
 }
 
@@ -171,6 +184,39 @@ a{
 
 .lanzamientos__texto{
     margin: 10px;
+}
+
+.categorias{
+    width: 200px;
+
+    background-color: rgb(15, 114, 64);
+
+    grid-area: categorias;
+}
+
+.main-index{
+    display: grid;
+
+    grid-area: main;
+
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat (3, auto);
+    grid-template-areas:
+    "categorias destacados destacados"
+    "categorias series series"
+    "categorias lanzamientos lanzamientos";
+
+}
+
+.body-index{
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
                                         /*   FOROS   */
@@ -307,7 +353,7 @@ a{
 
                 /*formularios*/
 
-.formulario{
+.formulario-inicio{
     background-color: white;
     color: black;
     
@@ -317,7 +363,24 @@ a{
 
     border: 4px solid  rgb(15, 114, 64);
     border-radius: 15px;
+
+    grid-area: inicio;
 }
+
+.formulario-registro{
+    background-color: white;
+    color: black;
+    
+    width: 300px;
+
+    padding: 10px;
+
+    border: 4px solid  rgb(15, 114, 64);
+    border-radius: 15px;
+
+    grid-area: registro;
+}
+
 
 .username{
     padding-bottom: 20px;
@@ -333,4 +396,29 @@ a{
 
 .cambiar__contraseña{
     color: black;
+}
+
+@media (min-width:768px){
+    .main-login{
+        display: grid;
+
+        grid-area: main;
+
+        grid-template-columns: 2fr;
+        grid-template-rows: 60vh;
+        grid-template-areas:
+        "inicio registro";
+    }
+
+    .body-login{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4,auto);
+        grid-template-areas:
+        "header"
+        "inicio"
+        "registro"
+        "footer";
+
+    }
 }
